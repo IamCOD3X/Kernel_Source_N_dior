@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/atmel/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/input/touchscreen/atmel/built-in.o drivers/input/touchscreen/atmel/atmel_mxt_ts.o drivers/input/touchscreen/atmel/plugin_ac_t72.o drivers/input/touchscreen/atmel/plugin_cal_t37.o ; scripts/mod/modpost drivers/input/touchscreen/atmel/built-in.o

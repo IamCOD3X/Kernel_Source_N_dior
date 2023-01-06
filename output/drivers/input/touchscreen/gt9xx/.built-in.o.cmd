@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/gt9xx/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/input/touchscreen/gt9xx/built-in.o drivers/input/touchscreen/gt9xx/gt9xx.o drivers/input/touchscreen/gt9xx/gt9xx_update.o ; scripts/mod/modpost drivers/input/touchscreen/gt9xx/built-in.o

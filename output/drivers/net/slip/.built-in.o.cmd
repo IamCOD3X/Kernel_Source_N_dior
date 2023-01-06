@@ -1,0 +1,1 @@
+cmd_drivers/net/slip/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/net/slip/built-in.o drivers/net/slip/slhc.o ; scripts/mod/modpost drivers/net/slip/built-in.o

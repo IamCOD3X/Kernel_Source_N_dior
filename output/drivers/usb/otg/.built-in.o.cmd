@@ -1,0 +1,1 @@
+cmd_drivers/usb/otg/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/usb/otg/built-in.o drivers/usb/otg/otg.o drivers/usb/otg/msm_otg.o ; scripts/mod/modpost drivers/usb/otg/built-in.o

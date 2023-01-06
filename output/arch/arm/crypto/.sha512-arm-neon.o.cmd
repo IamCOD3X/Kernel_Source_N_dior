@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha512-arm-neon.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o arch/arm/crypto/sha512-arm-neon.o arch/arm/crypto/sha512-armv7-neon.o arch/arm/crypto/sha512_neon_glue.o ; scripts/mod/modpost arch/arm/crypto/sha512-arm-neon.o

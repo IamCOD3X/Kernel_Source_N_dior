@@ -1,0 +1,1 @@
+cmd_drivers/md/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/md/built-in.o drivers/md/dm-mod.o drivers/md/dm-bufio.o drivers/md/dm-crypt.o drivers/md/dm-verity.o ; scripts/mod/modpost drivers/md/built-in.o

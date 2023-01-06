@@ -1,0 +1,1 @@
+cmd_drivers/media/video/gspca/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/media/video/gspca/built-in.o drivers/media/video/gspca/gspca_main.o ; scripts/mod/modpost drivers/media/video/gspca/built-in.o

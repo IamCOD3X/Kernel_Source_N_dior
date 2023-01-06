@@ -1,0 +1,1 @@
+cmd_drivers/misc/tspdrv/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/misc/tspdrv/built-in.o drivers/misc/tspdrv/tspdrv.o ; scripts/mod/modpost drivers/misc/tspdrv/built-in.o

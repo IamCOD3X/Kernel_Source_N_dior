@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/net/wireless/ath/ath6kl/built-in.o drivers/net/wireless/ath/ath6kl/ath6kl_core.o drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o drivers/net/wireless/ath/ath6kl/ath6kl_usb.o ; scripts/mod/modpost drivers/net/wireless/ath/ath6kl/built-in.o

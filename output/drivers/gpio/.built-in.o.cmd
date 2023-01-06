@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/gpio/built-in.o drivers/gpio/gpiolib.o drivers/gpio/devres.o drivers/gpio/gpio-msm-common.o drivers/gpio/gpio-msm-v3.o drivers/gpio/qpnp-pin.o ; scripts/mod/modpost drivers/gpio/built-in.o

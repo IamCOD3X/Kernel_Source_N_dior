@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-armv4.o arch/arm/crypto/aes_glue.o ; scripts/mod/modpost arch/arm/crypto/aes-arm.o

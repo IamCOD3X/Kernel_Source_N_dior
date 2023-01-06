@@ -1,0 +1,1 @@
+cmd_sound/soc/msm/snd-soc-msm8226.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o sound/soc/msm/snd-soc-msm8226.o sound/soc/msm/msm8226.o ; scripts/mod/modpost sound/soc/msm/snd-soc-msm8226.o

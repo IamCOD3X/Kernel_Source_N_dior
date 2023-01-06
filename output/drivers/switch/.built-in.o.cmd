@@ -1,0 +1,1 @@
+cmd_drivers/switch/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/switch/built-in.o drivers/switch/switch_class.o ; scripts/mod/modpost drivers/switch/built-in.o

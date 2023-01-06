@@ -1,0 +1,1 @@
+cmd_drivers/gud/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/gud/built-in.o drivers/gud/mcKernelApi.o drivers/gud/mcDrvModule.o ; scripts/mod/modpost drivers/gud/built-in.o

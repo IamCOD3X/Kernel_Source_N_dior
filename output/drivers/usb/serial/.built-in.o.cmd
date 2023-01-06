@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/usb/serial/built-in.o drivers/usb/serial/usbserial.o drivers/usb/serial/csvt.o ; scripts/mod/modpost drivers/usb/serial/built-in.o

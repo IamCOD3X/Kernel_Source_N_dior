@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/bluetooth/built-in.o drivers/bluetooth/hci_smd.o ; scripts/mod/modpost drivers/bluetooth/built-in.o

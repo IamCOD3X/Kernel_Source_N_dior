@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o arch/arm/crypto/built-in.o arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-arm-bs.o arch/arm/crypto/sha1-arm.o arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha512-arm-neon.o ; scripts/mod/modpost arch/arm/crypto/built-in.o

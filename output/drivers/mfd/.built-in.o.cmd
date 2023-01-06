@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/mfd/built-in.o drivers/mfd/mfd-core.o drivers/mfd/wcd9xxx-core.o drivers/mfd/wcd9xxx-irq.o drivers/mfd/wcd9xxx-slimslave.o drivers/mfd/wcd9xxx-core-resource.o drivers/mfd/lm3533-core.o drivers/mfd/lm3533-ctrlbank.o ; scripts/mod/modpost drivers/mfd/built-in.o

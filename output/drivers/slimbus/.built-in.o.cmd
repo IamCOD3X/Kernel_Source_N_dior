@@ -1,0 +1,1 @@
+cmd_drivers/slimbus/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/slimbus/built-in.o drivers/slimbus/slimbus.o drivers/slimbus/slim-msm.o drivers/slimbus/slim-msm-ngd.o ; scripts/mod/modpost drivers/slimbus/built-in.o

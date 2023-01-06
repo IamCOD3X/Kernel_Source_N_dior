@@ -1,0 +1,1 @@
+cmd_drivers/uio/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/uio/built-in.o drivers/uio/uio.o drivers/uio/msm_sharedmem.o ; scripts/mod/modpost drivers/uio/built-in.o

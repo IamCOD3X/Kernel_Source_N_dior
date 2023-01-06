@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/tty/serial/built-in.o drivers/tty/serial/serial_core.o drivers/tty/serial/msm_serial_hs_lite.o ; scripts/mod/modpost drivers/tty/serial/built-in.o

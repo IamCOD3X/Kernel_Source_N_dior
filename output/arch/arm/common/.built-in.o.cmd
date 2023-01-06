@@ -1,0 +1,1 @@
+cmd_arch/arm/common/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o arch/arm/common/built-in.o arch/arm/common/gic.o arch/arm/common/cpaccess.o ; scripts/mod/modpost arch/arm/common/built-in.o

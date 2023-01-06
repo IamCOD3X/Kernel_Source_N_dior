@@ -1,0 +1,2 @@
+kernel/drivers/input/touchscreen/gt9xx/gt9xx.ko
+kernel/drivers/input/touchscreen/gt9xx/gt9xx_update.ko

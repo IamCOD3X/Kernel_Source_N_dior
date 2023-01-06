@@ -1,0 +1,4 @@
+kernel/drivers/misc/smsc_hub.ko
+kernel/drivers/misc/qseecom.ko
+kernel/drivers/misc/uid_cputime.ko
+kernel/drivers/misc/tspdrv/tspdrv.ko

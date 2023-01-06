@@ -1,0 +1,7 @@
+kernel/drivers/net/wireless/rndis_wlan.ko
+kernel/drivers/net/wireless/ath/ath.ko
+kernel/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko
+kernel/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko
+kernel/drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko
+kernel/drivers/net/wireless/wcnss/wcnsscore.ko
+kernel/drivers/net/wireless/wcnss/wcnss_prealloc.ko

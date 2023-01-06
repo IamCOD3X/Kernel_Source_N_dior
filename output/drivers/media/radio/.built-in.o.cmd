@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/media/radio/built-in.o drivers/media/radio/radio-iris.o drivers/media/radio/radio-iris-transport.o ; scripts/mod/modpost drivers/media/radio/built-in.o

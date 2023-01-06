@@ -1,0 +1,1 @@
+cmd_drivers/w1/slaves/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/w1/slaves/built-in.o drivers/w1/slaves/w1_bq2022.o ; scripts/mod/modpost drivers/w1/slaves/built-in.o

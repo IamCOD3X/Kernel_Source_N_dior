@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/media/platform/built-in.o drivers/media/platform/msm/built-in.o ; scripts/mod/modpost drivers/media/platform/built-in.o

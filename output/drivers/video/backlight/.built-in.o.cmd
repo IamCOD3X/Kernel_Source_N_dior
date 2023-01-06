@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/video/backlight/built-in.o drivers/video/backlight/backlight.o drivers/video/backlight/lm3533-bl.o ; scripts/mod/modpost drivers/video/backlight/built-in.o

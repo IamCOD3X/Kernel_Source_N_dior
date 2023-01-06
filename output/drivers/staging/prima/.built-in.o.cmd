@@ -1,0 +1,1 @@
+cmd_drivers/staging/prima/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/staging/prima/built-in.o drivers/staging/prima/wlan.o ; scripts/mod/modpost drivers/staging/prima/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/crypto/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/crypto/built-in.o drivers/crypto/msm/built-in.o ; scripts/mod/modpost drivers/crypto/built-in.o

@@ -1,0 +1,6 @@
+kernel/drivers/power/power_supply.ko
+kernel/drivers/power/qpnp-bms-dior.ko
+kernel/drivers/power/qpnp-bms-armani.ko
+kernel/drivers/power/qpnp-charger-dior.ko
+kernel/drivers/power/qpnp-charger-armani.ko
+kernel/drivers/power/battery_current_limit.ko

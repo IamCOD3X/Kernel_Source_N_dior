@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/rc-core.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/media/rc/rc-core.o drivers/media/rc/rc-main.o drivers/media/rc/ir-raw.o ; scripts/mod/modpost drivers/media/rc/rc-core.o

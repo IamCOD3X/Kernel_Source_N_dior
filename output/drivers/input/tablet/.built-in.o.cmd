@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/built-in.o :=  /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o drivers/input/tablet/built-in.o drivers/input/tablet/acecad.o drivers/input/tablet/aiptek.o drivers/input/tablet/gtco.o drivers/input/tablet/hanwang.o drivers/input/tablet/kbtab.o drivers/input/tablet/wacom.o ; scripts/mod/modpost drivers/input/tablet/built-in.o

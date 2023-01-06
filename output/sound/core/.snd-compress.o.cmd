@@ -1,0 +1,1 @@
+cmd_sound/core/snd-compress.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o sound/core/snd-compress.o sound/core/compress_offload.o ; scripts/mod/modpost sound/core/snd-compress.o

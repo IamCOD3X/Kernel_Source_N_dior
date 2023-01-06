@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-msm-stub.o := /home/DECODER/Downloads/Kernel/arm-eabi-4.8/bin/arm-eabi-ld -EL   -r -o sound/soc/codecs/snd-soc-msm-stub.o sound/soc/codecs/msm_stub.o ; scripts/mod/modpost sound/soc/codecs/snd-soc-msm-stub.o
